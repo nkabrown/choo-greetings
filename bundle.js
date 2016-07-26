@@ -27,9 +27,9 @@ const view = (state, prev, send) => {
         e.target.children[1].value = '';
         e.preventDefault();
       }}>
-        <p>What is your name?</p>
+        <p>What’s your name?</p>
         <input type="text" placeholder="Name" id="name"> 
-        ${state.name ? html`<p class="greetings">Well ${state.name}, nice to meet you</p>` : null}
+        ${state.name ? html`<p class="greetings">Well ${state.name}, nice to meet you!</p>` : null}
       </form>
     </div>
   </main>`
